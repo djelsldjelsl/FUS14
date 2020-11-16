@@ -12,3 +12,9 @@
 - rmdir
 - rm
 - mv
+
+## GIT
+- 초기환경설정
+  - git config --global user.name
+  - git config --global user.email
+- git init
