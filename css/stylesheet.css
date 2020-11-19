@@ -102,6 +102,8 @@
 /* -----------------앱 네비게이션 시작------------------- */
 
 .app-navigation{
+    
+    
     display: flex;
     background-color: black;
     opacity: 90%;
@@ -112,7 +114,12 @@
     width:100%;
     height:100vh;
     flex-direction: column;
+    transition: all 0.4s cubic-bezier(0.66, -0.01, 0.3, 0.99);
+    transform: translateX(105vw);
 }
+.app-navigation.is-active {
+    transform: translateX(0);
+  }
 
 .app-navigation ul{
         padding: 10px;
