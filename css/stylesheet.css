@@ -149,3 +149,27 @@
 .is-close-menu .close{
     color:white;
 }
+
+
+/* --------------------메인 콘텐츠----------------------- */
+
+.app-main{
+  /* display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: flex-start;
+  max-width: 525px; */
+}
+
+.ediya-menu figure{
+ }
+.ediya-menu img{
+  max-width: 100%;
+  height: auto;
+}
+@media all and (min-width:768px){
+
+  }}
+
+.ediya-menu__item{
+}
