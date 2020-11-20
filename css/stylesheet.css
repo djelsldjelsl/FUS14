@@ -154,22 +154,44 @@
 /* --------------------메인 콘텐츠----------------------- */
 
 .app-main{
-  /* display: flex;
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.ediya-menu{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:556px ;
+  min-width: 375px;
+}
+
+.app-main a{
+  color: inherit;
   text-decoration: none;
-  justify-content: flex-start;
-  max-width: 525px; */
 }
 
 .ediya-menu figure{
+  max-width: 248px;
+  height: auto;
+  background-color: #F5F5F5;
+  font-size:19px;
+  margin:15px;
+  align-items: center;
  }
+
+ .ediya-menu figcaption{
+  text-align: center;
+  padding: 30px 16px 
+
+  }
+
 .ediya-menu img{
   max-width: 100%;
   height: auto;
 }
-@media all and (min-width:768px){
-
-  }}
+@media all and (min-width:768px)
+{}
 
 .ediya-menu__item{
-}
+  min-width: 248px;
+  max-width: 340px;
+  }
